@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 500;
+}
+.navbar .nav-menu {
+  list-style: none;
+  display: flex;
+}
+.navbar .nav-menu a {
+  text-decoration: none;
+  color: #e5e7eb;
+  padding-left: 20px;
+}
+.header .main-text {
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+  gap: 30px;
+}
+.header .main-text .main-info h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin: 0;
+  line-height: 1;
+}
+.header .main-text .main-info p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0 0 10px;
+}
+.header .main-text .main-info button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #3882f6;
+}
+.header .main-text .main-img {
+  width: 830px;
+  height: 200px;
+  background-color: #6d747d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random-info {
+  text-align: center;
+  padding: 30px 0 70px;
+}
+.random-info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+.random-info .info-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 35px;
+}
+.random-info .info-boxes .box {
+  width: 150px;
+  color: #6d747d;
+}
+.random-info .info-boxes .box .box-img {
+  height: 115px;
+  width: 143px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin: 0 auto 5px;
+}
+
+.quote {
+  padding: 80px 0 60px;
+  background-color: #e5e7eb;
+}
+.quote .quote-box {
+  width: 767px;
+  margin: auto;
+}
+.quote .quote-box p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1f2937;
+}
+.quote .quote-box span {
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  text-align: right;
+}
+.action {
+  padding: 50px 0;
+}
+.action .action-box {
+  padding: 30px 80px;
+  border-radius: 6px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action .action-box h4 {
+  color: white;
+}
+.action .action-box p {
+  color: #e5e7eb;
+}
+.action button {
+  padding: 6px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+footer {
+  padding: 25px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+}
